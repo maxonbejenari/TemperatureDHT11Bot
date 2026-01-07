@@ -8,7 +8,7 @@
 DHT dht(DHTPIN, DHTTYPE); // dht is object of class DHT, DHT has constructor for (pin and type)
 
 const char* ssid = "NAME_WIFI"; // name of wifi
-const char* password = "PASSWORD; // password of wifi
+const char* password = "PASSWORD"; // password of wifi
 
 const char* botToken = "TOKEN_BOT"; // token of your telegram bot
 String chat_id = "CHAT_ID"; // chat id of chat with your bot
