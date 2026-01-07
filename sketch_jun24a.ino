@@ -7,11 +7,11 @@
 #define DHTTYPE DHT11 // type in our case is dht11(maybe you use dht22)
 DHT dht(DHTPIN, DHTTYPE); // dht is object of class DHT, DHT has constructor for (pin and type)
 
-const char* ssid = "iPhone"; // name of wifi
-const char* password = "ft12345678"; // password of wifi
+const char* ssid = "NAME_WIFI"; // name of wifi
+const char* password = "PASSWORD; // password of wifi
 
-const char* botToken = "7548678510:AAHH__lsRN_JmZE3MoSzqUTpwjVY3pBD6mA"; // token of your telegram bot
-String chat_id = "6290509974"; // chat id of chat with your bot
+const char* botToken = "TOKEN_BOT"; // token of your telegram bot
+String chat_id = "CHAT_ID"; // chat id of chat with your bot
 
 WiFiClientSecure client; // client is object of class WifiClientSecure
 UniversalTelegramBot bot(botToken, client); // bot is object of class UniversalTelegramBot
